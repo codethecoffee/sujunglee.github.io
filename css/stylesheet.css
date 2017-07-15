@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
 * {
 	box-sizing: border-box;
 	font-family: 'Josefin Sans', sans-serif;
@@ -24,12 +23,10 @@ h4 {
 }
 
 p {
-	font-size: 96%;
+	font-size: 100%;
 }
 
-
 /* Header Styles */
-
 .logo {
 	width: 80px;
 	height: 80px;
@@ -52,7 +49,6 @@ p {
 
 
 /* Body */
-
 .banner-img {
 	max-width: 100%;
 	max-height: 100%;
@@ -61,4 +57,5 @@ p {
 .project-image {
 	max-width: 100%;
 }
+
 
