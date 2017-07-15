@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+	position: relative;
+	overflow: auto;
+}
+
+h1 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: bold;
+	color: #7d97ad;
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 20px;
+}
+
+
+/* Header Styles */
+
+.logo {
+	width: 80px;
+	height: 80px;
+}
+
+.name {
+	text-align: right;
+	font-size: 350%;
+	font-weight: bold;
+}
+
+
+.name-headline {
+	float: right;
+	font-size: 100%;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+
+/* Body */
+
+.banner-img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.project-image {
+	max-width: 100%;
+}
+
