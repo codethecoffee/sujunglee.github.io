@@ -1,10 +1,19 @@
 @charset "UTF-8";
-/* CSS Document */
+/* Entire CSS Document */
 * {
 	box-sizing: border-box;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "Poiret One", "Josefin Sans", sans-serif;
 	position: relative;
 	overflow: auto;
+}
+
+
+nav {
+	display: inline;
+}
+
+body {
+	float: both;
 }
 
 h1 {
@@ -14,7 +23,7 @@ h1 {
 
 h2 {
 	font-weight: bold;
-	color: #7d97ad;
+	color: white;
 }
 
 h4 {
@@ -26,35 +35,36 @@ p {
 	font-size: 100%;
 }
 
-/* Header Styles */
-.logo {
-	width: 80px;
-	height: 80px;
-	float: left;
+li {
+	font-size: 170%;
 }
 
+/* Navigation Styles */
+
+.nav-link {
+	padding: 10px;
+	font-size: 130%;
+}
+
+
+/* Header Styles */
 .name {
 	text-align: right;
 	font-size: 350%;
 	font-weight: bold;
-}
-
-
-.name-headline {
-	float: right;
-	font-size: 100%;
-	font-weight: lighter;
-	text-transform: uppercase;
+	color: white;
 }
 
 
 /* Body */
-.banner-img {
-	max-width: 100%;
-	max-height: 100%;
-}
 
 .project-image {
 	max-width: 100%;
 }
+
+.main-intro {
+	float: both;
+	background-color: #011f4b;
+}
+
 
