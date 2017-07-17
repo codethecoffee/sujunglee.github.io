@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* Entire CSS Document */
+/* SEMANTIC TAG STYLES */
 * {
 	box-sizing: border-box;
 	font-family: "Poiret One", "Josefin Sans", sans-serif;
@@ -10,6 +10,7 @@
 
 nav {
 	display: inline;
+	background-color: #011f4b;
 }
 
 body {
@@ -18,16 +19,17 @@ body {
 
 h1 {
 	font-weight: bold;
-	text-transform: uppercase;
+	text-align: center;
+	font-size: 5000px;
 }
 
 h2 {
 	font-weight: bold;
+	text-align: center;
 	color: white;
 }
 
 h4 {
-	text-transform: uppercase;
 	font-weight: bold;
 }
 
@@ -39,32 +41,29 @@ li {
 	font-size: 170%;
 }
 
-/* Navigation Styles */
+/* NAVIGATION BAR */
 
 .nav-link {
 	padding: 10px;
 	font-size: 130%;
-}
-
-
-/* Header Styles */
-.name {
-	text-align: right;
-	font-size: 350%;
-	font-weight: bold;
 	color: white;
 }
 
+.nav-link:hover {
+	color: #b3cde0;
+	/* Remove underline when hovering over link for the aesthetic reasons */
+	text-decoration: none;
+}
 
-/* Body */
+/* The link the user is currently on */
+.active {
+	color: #b3cde0;
+}
+
+/* BODY */
 
 .project-image {
 	max-width: 100%;
-}
-
-.main-intro {
-	float: both;
-	background-color: #011f4b;
 }
 
 
