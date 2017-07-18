@@ -2,9 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<!-- Web Fonts -->
+		<!-- Google Web Fonts, in order of prioritizatioin -->
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
+		<!-- Setting the viewport -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Stylesheets & Javascript -->
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
@@ -17,36 +19,27 @@
 			<a href="#" class="nav-link" style="float:right">work</a>
 			<a href="index.html" class="nav-link active" style="float:right">home</a>
 		</nav>
-		<div class="container-fluid">
-			<h1>suzy lee</h1>
-			<h2>Full stack web developer</h2>
+		<div class="name-top container-fluid">
+			<p class="name-text">suzy lee</p>
+			<h3>Full stack web developer</h3>
+			<button type="button" class="btn btn-default btn-lg center-block">about me</button>
 		</div>
 		<section class= "container">
-			<h2>Featured Work</h2>
 			<div class="row">
-  				<div class="col-sm-4">
-  					<img class="project-image center-block" src="images/just-love-chem-small.jpg" srcset="images/just-love-chem-med.jpg, images/just-love-chem-large.jpg" alt="Just Love Chemistry Project">
-  					<h4 class="text-center">Just Love Chemistry</h4>
-  					<p class="text-center">
-  						<b>Illustrator</b> of the JLC cartoon periodic table.
-  						<b>Designer</b> of JLC merchandise.
-  						<b>Manager</b> of justlovechemistry.com
-  					</p>
-  				</div>
-  				<div class="col-sm-4">
-  					<img class="project-image" src="images/HELIX-logo.jpg">
-  					<h4 class="text-center">HELIX Magazine</h4>
-  					<p class="text-justify">
-  						<b>Computer science writer</b> at HELIX Magazine.
-  					</p>
-  				</div>
-  				<div class="col-sm-4">
-  					<img class="project-image" src="images/awards.jpg" alt="Awards">
-  					<h4 class="text-center">Awards</h4>
-  					<p class="text-justify">
-  						International, national, and school-level awards I received.
-  					</p>
-  				</div>
+				<div class="web-app-box home-box col-sm-6">
+					<p class="home-text-title">Web Applications</p>
+				</div>
+				<div class="helix-mag-box home-box col-sm-6">
+					<p class="home-text-title">Publications</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="just-love-chem-box home-box col-sm-6">
+					<p class="home-text-title">Just Love Chemistry</p>
+				</div>
+				<div class="awards-box home-box col-sm-6">
+					<p class="home-text-title">Awards</p>
+				</div>
 			</div>
 		</section>
 

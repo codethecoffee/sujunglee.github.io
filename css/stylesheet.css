@@ -2,7 +2,7 @@
 /* SEMANTIC TAG STYLES */
 * {
 	box-sizing: border-box;
-	font-family: "Poiret One", "Josefin Sans", sans-serif;
+	font-family: "Quicksand", "Poiret One", "Josefin Sans", sans-serif;
 	position: relative;
 	overflow: auto;
 }
@@ -10,27 +10,15 @@
 
 nav {
 	display: inline;
-	background-color: #011f4b;
 }
 
 body {
 	float: both;
 }
 
-h1 {
-	font-weight: bold;
+h3 {
+	font-size: 90%;
 	text-align: center;
-	font-size: 5000px;
-}
-
-h2 {
-	font-weight: bold;
-	text-align: center;
-	color: white;
-}
-
-h4 {
-	font-weight: bold;
 }
 
 p {
@@ -41,12 +29,16 @@ li {
 	font-size: 170%;
 }
 
+footer {
+	padding: 10px;
+}
+
 /* NAVIGATION BAR */
 
 .nav-link {
 	padding: 10px;
 	font-size: 130%;
-	color: white;
+	color: #011f4b;
 }
 
 .nav-link:hover {
@@ -60,10 +52,42 @@ li {
 	color: #b3cde0;
 }
 
-/* BODY */
+/* HOME PAGE */
 
-.project-image {
-	max-width: 100%;
+.name-text {
+	font-size: 400%;
+	text-align: center;
 }
 
+.name-top {
+	padding-bottom: 10px;
+}
 
+.home-text-title {
+	color: white;
+	text-align: center;
+	font-size: 150%;
+	text-transform: lowercase;
+}
+
+.home-box {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	height: 250px;
+}
+
+.web-app-box {
+	background-color: #011f4b;
+}
+
+.helix-mag-box {
+	background-color: #005b96;
+}
+
+.just-love-chem-box {
+	background-color: #03396c;
+}
+
+.awards-box {
+	background-color: #6497b1;
+}
