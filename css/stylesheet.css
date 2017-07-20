@@ -22,7 +22,11 @@ h3 {
 }
 
 p {
-	font-size: 100%;
+	font-size: 110%;
+}
+
+b {
+	color: #011f4b;
 }
 
 li {
@@ -80,20 +84,23 @@ a:hover {
 	height: 250px;
 }
 
-.web-app-box {
+.dark-blue {
 	background-color: #011f4b;
 }
 
-.helix-mag-box {
-	background-color: #005b96;
-}
-
-.art-box {
+.med-dark-blue {
 	background-color: #03396c;
 }
 
-.awards-box {
+.med-blue {
+	background-color: #005b96;
+}
+
+.light-blue {
 	background-color: #6497b1;
 }
 
-/* ABOUT ME PAGE */
+.very-light-blue {
+	background-color: #b3cde0;
+}
+
