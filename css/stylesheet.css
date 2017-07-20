@@ -33,6 +33,10 @@ footer {
 	padding: 10px;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 /* NAVIGATION BAR */
 
 .nav-link {
@@ -43,7 +47,7 @@ footer {
 
 .nav-link:hover {
 	color: #b3cde0;
-	/* Remove underline when hovering over link for the aesthetic reasons */
+	/* Remove underline when hovering over link*/
 	text-decoration: none;
 }
 
@@ -84,10 +88,12 @@ footer {
 	background-color: #005b96;
 }
 
-.just-love-chem-box {
+.art-box {
 	background-color: #03396c;
 }
 
 .awards-box {
 	background-color: #6497b1;
 }
+
+/* ABOUT ME PAGE */
