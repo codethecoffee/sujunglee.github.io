@@ -41,6 +41,10 @@ a:hover {
 	text-decoration: none;
 }
 
+.bottom-padding {
+	padding-bottom: 50px;
+}
+
 /* NAVIGATION BAR */
 
 .nav-link {
@@ -61,6 +65,14 @@ a:hover {
 }
 
 /* HOME PAGE */
+
+#logo {
+	box-shadow: 6px 6px 5px #888888;
+}
+
+#homepage {
+	padding-top: 200px;
+}
 
 .name-text {
 	font-size: 400%;
@@ -168,7 +180,7 @@ a:hover {
             .timeline > li > .timeline-panel:before {
                 position: absolute;
                 top: 26px;
-                right: -15px;
+                right: -20px;
                 display: inline-block;
                 border-top: 15px solid transparent;
                 border-left: 15px solid #ccc;
