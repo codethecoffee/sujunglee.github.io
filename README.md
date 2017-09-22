@@ -1,5 +1,5 @@
-# Suzy (Sujung) Lee's Portfolio
+# Sujung Lee's Portfolio
 
-This is a portfolio for Suzy Lee, a computer science student attending Northwestern.
+This is a portfolio for Sujung Lee (usually called Suzy), a sophomore pursuing a Bachelor's in Computer Science at Northwestern.
 
-Click <a href="https://sujunglee2020.github.io/portfolio/">here</a> to view the portfolio.
+Go to https://sujunglee.com to view her portfolio.
