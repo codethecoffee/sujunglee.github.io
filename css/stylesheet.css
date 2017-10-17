@@ -70,7 +70,8 @@ a:hover {
 }
 
 #homepage {
-	padding-top: 200px;
+	padding-top: 15%;
+	padding-bottom: 15%;
 }
 
 .name-text {
@@ -144,7 +145,7 @@ a:hover {
     }
 
     .timeline > li {
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         position: relative;
     }
 
@@ -171,11 +172,12 @@ a:hover {
         .timeline > li > .timeline-panel {
             float: left;
             width: 45%;
-            border: 1px solid #6497b1;
-            padding: 20px;
-            position: relative;
+            border: 10px solid white;
+            padding: 15px;
+            position: relative
+;
         }
-				
+
         .timeline > li > .timeline-badge {
             color: white;
             width: 50px;
@@ -292,8 +294,7 @@ a:hover {
 }
 
 .timeline-icon {
-	width: 15%;
-	height: 15%;
+	width: 85px;
 }
 
 .timeline-p {
