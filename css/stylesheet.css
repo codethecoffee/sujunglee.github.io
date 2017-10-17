@@ -197,7 +197,7 @@ a:hover {
         .timeline > li > .timeline-panel {
             float: left;
             width: 45%;
-            border: 5px solid #b3cde0;
+            border: 5px solid white;
             padding: 15px;
             position: relative;
 ;
