@@ -344,3 +344,7 @@ a:hover {
 .download-icon {
 	font-size: 6rem;
 }
+
+.download-text {
+	text-decoration: none !important;
+}
