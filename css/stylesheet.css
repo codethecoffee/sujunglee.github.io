@@ -33,7 +33,7 @@ li {
 }
 
 footer {
-	padding: 10px;
+	padding-top: 50px;
 }
 
 a:hover {
@@ -70,8 +70,8 @@ a:hover {
 }
 
 #homepage {
-	padding-top: 15%;
-	padding-bottom: 15%;
+	padding-top: 210px;
+	padding-bottom: 210px;
 }
 
 .name-text {
