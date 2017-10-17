@@ -81,6 +81,11 @@ a:hover {
 	-webkit-text-stroke-color: white;
 }
 
+.header-padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 .white-text {
 	color: white;
 }
