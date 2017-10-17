@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 	font-family: "Quicksand", "Poiret One", "Josefin Sans", sans-serif;
 	position: relative;
-	overflow: auto;
 }
 
 h1 {
@@ -339,5 +338,3 @@ a:hover {
 	display: block;
 	margin: 0 auto;
 }
-
-
