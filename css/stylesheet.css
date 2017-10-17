@@ -332,11 +332,15 @@ a:hover {
   box-sizing: border-box;
 }
 
-
-
 /* WORK PAGE */
 
 .img-center {
 	display: block;
 	margin: 0 auto;
+}
+
+
+/* DOWNLOAD SECTION */
+.download-icon {
+	font-size: 6rem;
 }
