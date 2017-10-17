@@ -46,6 +46,22 @@ a:hover {
 
 /* NAVIGATION BAR */
 
+.nav-link {
+	padding: 10px;
+	font-size: 130%;
+	color: #011f4b;
+}
+
+.nav-link:hover {
+	color: #b3cde0;
+	/* Remove underline when hovering over link*/
+	text-decoration: none;
+}
+
+/* The link the user is currently on */
+.active {
+	color: #b3cde0;
+}
 
 /* HOME PAGE */
 
@@ -63,6 +79,11 @@ a:hover {
 	text-align: center;
 	-webkit-text-stroke-width: 0.5px;
 	-webkit-text-stroke-color: white;
+}
+
+.header-padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .white-text {
