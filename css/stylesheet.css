@@ -199,7 +199,7 @@ a:hover {
             width: 45%;
             border: 5px solid #b3cde0;
             padding: 15px;
-            position: relative
+            position: relative;
 ;
         }
 
@@ -323,7 +323,7 @@ a:hover {
 }
 
 .timeline-p {
-	font-size: 65%;
+	font-size: 1.5rem;
 }
 
 
